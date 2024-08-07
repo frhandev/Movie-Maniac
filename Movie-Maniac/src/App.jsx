@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
+import MovieList from './Components/MovieList/MovieList'
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       <Navbar />
 
       <main>
-        main
+        <MovieList />
       </main>
     </div>
   )
